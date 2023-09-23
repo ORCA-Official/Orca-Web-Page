@@ -10,12 +10,13 @@ class Service {
 
 let services = [];
 //service objects
-services.push(new Service(0, "Web Application Development", "Create web-based applications for businesses and organisations.", "../assets/img/clipArt/web.png"));
-services.push(new Service(1, "Mobile Application Development", "Design and develop mobile applications for iOS and Android platforms.", "../assets/img/clipArt/mobile.png"));
-services.push(new Service(2, "Stand-alone Application Development", "Create web-based applications for businesses and organisations.", "../assets/img/clipArt/standalone.png"));
-services.push(new Service(3, "UI/UX Design", " Offer user interface and user experience design services to create intuitive and user-friendly applications.", "../assets/img/clipArt/uiUx.png"));
-services.push(new Service(4, "Software Maintenance and Support", "Provide ongoing maintenance, updates, and technical support for software applications.", "../assets/img/clipArt/maintenance.png"));
-services.push(new Service(5, "Security", "We employ strong data encryption and access controls, safeguarding your software and user data from threats. Focus on your core business with confidence.", "../assets/img/clipArt/security.png"));
+// services.push(new Service(0, "Web Application Development", "Create web-based applications for businesses and organisations.", "../assets/img/clipArt/web.png"));
+services.push(new Service(0, "Web Application Development", "Create web-based applications for businesses and organisations.", './assets/img/clipArt/web.png'));
+services.push(new Service(1, "Mobile Application Development", "Design and develop mobile applications for iOS and Android platforms.", './assets/img/clipArt/mobile.png'));
+services.push(new Service(2, "Stand-alone Application Development", "Create web-based applications for businesses and organisations.", './assets/img/clipArt/standalone.png'));
+services.push(new Service(3, "UI/UX Design", " Offer user interface and user experience design services to create intuitive and user-friendly applications.", './assets/img/clipArt/uiUx.png'));
+services.push(new Service(4, "Software Maintenance and Support", "Provide ongoing maintenance, updates, and technical support for software applications.", './assets/img/clipArt/maintenance.png'));
+services.push(new Service(5, "Security", "We employ strong data encryption and access controls, safeguarding your software and user data from threats. Focus on your core business with confidence.", './assets/img/clipArt/security.png'));
 
 
 /*let serviceItems = $('.service-item');*/
